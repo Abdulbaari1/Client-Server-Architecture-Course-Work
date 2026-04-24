@@ -18,7 +18,7 @@ All incoming and outgoing requests are handled by using a logging filter.
 
 # How to build and launch the Project Server
 
-Open the project in NetBeans
+Download Project 
 
 _____
 # Questions 
