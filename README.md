@@ -28,15 +28,20 @@ All incoming and outgoing requests are handled by using a logging filter.
 Here are a few curl commands to demonstrate the API.
 ```
 curl http://localhost:8080/CourseWork/api/v1
+
 curl http://localhost:8080/CourseWork/api/v1/rooms
+
 curl http://localhost:8080/CourseWork/api/v1/sensors
+
 curl -X POST http://localhost:8080/CourseWork/api/v1/rooms -H "Content-Type: application/json" -d '{
 "id": "LIB-301",
 "name": "Library",
 "capacity": 30,
 "sensorIds":[]
 }'
+
 curl localhost:8080/CourseWork/api/v1/rooms/LIB-301
+
 curl -X DELETE localhost:8080/CourseWork/api/v1/rooms/LIB-301
 ```
 
