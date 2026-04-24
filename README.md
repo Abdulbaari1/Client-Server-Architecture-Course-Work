@@ -18,12 +18,12 @@ All incoming and outgoing requests are handled by using a logging filter.
 
 # How to build and launch the Project Server
 
--Open Project in NetBeans[^2]
--Go to services tab, expand servers and confirm Apache Tomcat 9 is installed[^2]
--Right click servers, add server and locate Tomcat installation location[^2]
-[^2]
--Right click the project, select Clean and Build[^2]
--Right click the project, select run[^2]
+-Open Project in NetBeans
+-Go to services tab, expand servers and confirm Apache Tomcat 9 is installed
+-Right click servers, add server and locate Tomcat installation location
+
+-Right click the project, select Clean and Build
+-Right click the project, select run
 -
 
 _____
