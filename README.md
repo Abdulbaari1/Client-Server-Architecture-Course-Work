@@ -24,6 +24,20 @@ All incoming and outgoing requests are handled by using a logging filter.
 - Right click the project, select Clean and Build<br/>
 - Right click the project, select run<br/>
 
+# Curl Commands 
+
+```
+curl http://localhost:8080/CourseWork/api/v1
+curl http://localhost:8080/CourseWork/api/v1/rooms
+curl http://localhost:8080/CourseWork/api/v1/sensors
+curl -X POST http://localhost:8080/CourseWork/api/v1/rooms -H "Content-Type: application/json" -d '{
+"id": "LIB-301",
+"name": "Library",
+"capacity": 30,
+"sensorIds":[]
+}'
+curl localhost:8080/CourseWork/api/v1/rooms/LIB-301
+```
 
 _____
 # Questions 
