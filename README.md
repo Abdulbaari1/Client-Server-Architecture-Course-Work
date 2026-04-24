@@ -25,7 +25,7 @@ All incoming and outgoing requests are handled by using a logging filter.
 - Right click the project, select run<br/>
 
 # Curl Commands 
-
+Here are a few curl commands to demonstrate the API.
 ```
 curl http://localhost:8080/CourseWork/api/v1
 curl http://localhost:8080/CourseWork/api/v1/rooms
@@ -37,6 +37,7 @@ curl -X POST http://localhost:8080/CourseWork/api/v1/rooms -H "Content-Type: app
 "sensorIds":[]
 }'
 curl localhost:8080/CourseWork/api/v1/rooms/LIB-301
+curl -X DELETE localhost:8080/CourseWork/api/v1/rooms/LIB-301
 ```
 
 _____
