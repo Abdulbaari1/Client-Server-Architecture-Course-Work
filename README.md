@@ -1,5 +1,5 @@
 # Client Server Architecture Course-Work
-
+By Abdul-Baari Dirie
 # API Design Overview: 
 
 The SmartCampus project is a RESTful JAX-RS Service that manages sensors and rooms in a university setting.
